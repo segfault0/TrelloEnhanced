@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "TrelloEnhanced",
+  "description": "",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "*://*.trello.com/*"
+  ],
+  "web_accessible_resources": [
+    "html/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.trello.com/b/*"],
+      "css": ["./css/trelloenhanced.css"],
+      "js": ["./js/jquery.min.js", "./js/client.js", "./js/trelloenhanced.js", "./js/trelloutils.js"]
+    }
+  ]
+}

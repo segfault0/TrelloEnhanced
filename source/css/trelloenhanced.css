@@ -1,0 +1,22 @@
+.board-header-btn-random:hover {
+	background:#61BD4F!important
+}
+
+.board-header-btn-random {
+	background:#5AAC44;
+	color:#fff;
+	text-shadow:0;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cur-user {
+    font-size: 12pt !important;
+}
